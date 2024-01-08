@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/box__hira.css">
+    <link rel="stylesheet" href="css/styyle.css">
+    <link rel="stylesheet" href="header-style.css">
+ 
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>learn.</h1>
+        </div>
+        <div class="cursor">🍙</div>
+     
+    </header>
+    <div class="contenu">
+        <a id="hiragana" href="#hiragana">Hiragana </a>
+        <a id="katakana" href="#katakana">Katakana</a>
+        <a id="kanji" href="#kanji">Kanji</a>
+        <div>
+             <!--audio pour les bouton -->
+
+            <audio id="a-sound" hidden>
+                <source src="sound-katakana/sound--kata-a.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="i-sound" hidden>
+                <source src="sound-katakana/sound--kata-i.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="u-sound" hidden>
+                <source src="sound-katakana/sound--kata-u.mp3.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="e-sound" hidden>
+                <source src="sound-katakana/sound-kata-e.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="o-sound" hidden>
+                <source src="sound-katakana/sound--kata-o (2).mp3" type="audio/mpeg">
+            </audio>
+            <audio id="ka-sound" hidden>
+                <source src="sound-katakana/sound--kata-ka.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="ki-sound" hidden>
+                <source src="sound-katakana/sound--kata-ki.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="ku-sound" hidden>
+                <source src="sound-katakana/sound-kata-ku.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="ke-sound" hidden>
+                <source src="sound-katakana/sound--kata-ke.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="ko-sound" hidden>
+                <source src="sound-katakana/sound--kata-ko.mp3" type= "audio/mpeg">
+            </audio>
+            
+            
+            
+            
+            
+        </div>
+
+
+
+
+        <div class="box__katakana" id="box__katakana">
+            <button  id="btn__kata--a" class="big-button">ア<br><small>a</small></button>
+            <button id="btn__kata--ka" class="big-button">カ<br><small>ka</small></button>
+            <button class="big-button">サ<br><small>sa</small></button>
+            <button class="big-button">タ<br><small>ta</small></button>
+            <button class="big-button">ナ<br><small>na</small></button>
+            <button class="big-button">ハ<br><small>ha</small></button>
+            <button class="big-button">マ<br><small>ma</small></button>
+            <button class="big-button">ヤ<br><small>ya</small></button>
+            <button class="big-button">ラ<br><small>ra</small></button>
+            <button class="big-button">ワ<br><small>wa</small></button>
+            <button class="big-button">ガ<br><small>ga</small></button>
+            <button class="big-button">ザ<br><small>za</small></button>
+            <button class="big-button">ダ<br><small>da</small></button>
+            <button class="big-button">バ<br><small>ba</small></button>
+            <button class="big-button">パ<br><small>pa</small></button>
+           
+            <button  id="btn__kata--i" class="big-button">イ<br><small>i</small></button>
+            <button id="btn__kata--ki" class="big-button">キ<br><small>ki</small></button>
+            <button class="big-button">シ<br><small>shi</small></button>
+            <button class="big-button">チ<br><small>chi</small></button>
+            <button class="big-button">ニ<br><small>ni</small></button>
+            <button class="big-button">ヒ<br><small>hi</small></button>
+            <button class="big-button">ミ<br><small>mi</small></button>
+            <button class="big-button">リ<br><small>ri</small></button>
+            <button class="big-button">ヰ<br><small>wi</small></button>
+            <button class="big-button">ギ<br><small>gi</small></button>
+            <button class="big-button">ジ<br><small>ji</small></button>
+            <button class="big-button">ヂ<br><small>dji</small></button>
+            <button class="big-button">ビ<br><small>bi</small></button>
+            <button class="big-button">ピ<br><small>pi</small></button>
+
+            
+            <button id="btn__kata--u" class="big-button">ウ<br><small>u</small></button>
+            <button id="btn__kata--ku" class="big-button">ク<br><small>ku</small></button>
+            <button class="big-button">ス<br><small>su</small></button>
+            <button class="big-button">ツ<br><small>tsu</small></button>
+            <button class="big-button">ヌ<br><small>nu</small></button>
+            <button class="big-button">フ<br><small>fu</small></button>
+            <button class="big-button">ム<br><small>wu</small></button>
+            <button class="big-button">ユ<br><small>yu</small></button>
+            <button class="big-button">ル<br><small>ru</small></button>
+            <button class="big-button">グ<br><small>gu</small></button>
+            <button class="big-button">ズ<br><small>zu</small></button>
+            <button class="big-button">ヅ<br><small>dzu</small></button>
+            <button class="big-button">ブ<br><small>bu</small></button>
+            <button class="big-button">プ<br><small>pu</small></button>
+
+
+             
+            <button id="btn__kata--e" class="big-button">エ<br><small>e</small></button>
+            <button id="btn__kata--ke" class="big-button">ケ<br><small>ke</small></button>
+            <button class="big-button">セ<br><small>se</small></button>
+            <button class="big-button">テ<br><small>te</small></button>
+            <button class="big-button">ネ<br><small>ne</small></button>
+            <button class="big-button">ヘ<br><small>he</small></button>
+            <button class="big-button">メ<br><small>me</small></button>
+            <button class="big-button">レ<br><small>re</small></button>
+            <button class="big-button">ヱ<br><small>we</small></button>
+            <button class="big-button">ゲ<br><small>ge</small></button>
+            <button class="big-button">ゼ<br><small>ze</small></button>
+            <button class="big-button">デ<br><small>de</small></button>
+            <button class="big-button">ベ<br><small>be</small></button>
+            <button class="big-button">ペ<br><small>pe</small></button>
+
+         
+            <button id="btn__kata--o" class="big-button">オ<br><small>o</small></button>
+            <button id="btn__kata--ko" class="big-button">コ<br><small>ko</small></button>
+            <button class="big-button">ソ<br><small>so</small></button>
+            <button class="big-button">ト<br><small>to</small></button>
+            <button class="big-button">ノ<br><small>no</small></button>
+            <button class="big-button">ホ<br><small>ho</small></button>
+            <button class="big-button">モ<br><small>mo</small></button>
+            <button class="big-button">ヨ<br><small>yo</small></button>
+            <button class="big-button">ロ<br><small>ro</small></button>
+            <button class="big-button">ヲ<br><small>wo</small></button>
+            <button class="big-button">ゴ<br><small>go</small></button>
+            <button class="big-button">ゾ<br><small>zo</small></button>
+            <button class="big-button">ド<br><small>do</small></button>
+            <button class="big-button">ボ<br><small>bo</small></button>
+            <button class="big-button">ポ<br><small>po</small></button>
+            <button class="big-button">ヴ<br><small>v</small></button>
+            <button class="big-button">ン<br><small>n</small></button>
+        </div>
+        <div class="box__hira" id="box__hiragana">
+            <button class="big-button">あ<br><small>a</small></button>
+            <button class="big-button">か<br><small>ka</small></button>
+            <button class="big-button">さ<br><small>sa</small></button>
+            <button class="big-button">た<br><small>ta</small></button>
+            <button class="big-button">な<br><small>na</small></button>
+            <button class="big-button">は<br><small>ha</small></button>
+            <button class="big-button">ま<br><small>ma</small></button>
+            <button class="big-button">や<br><small>ya</small></button>
+            <button class="big-button">ら<br><small>ra</small></button>
+            <button class="big-button">わ<br><small>wa</small></button>
+            <button class="big-button">が<br><small>ga</small></button>
+            <button class="big-button">ざ<br><small>za</small></button>
+            <button class="big-button">だ<br><small>da</small></button>
+            <button class="big-button">ば<br><small>ba</small></button>
+            <button class="big-button">ぱ<br><small>pa</small></button>
+           
+            <button class="big-button">い<br><small>i</small></button>
+            <button class="big-button">き<br><small>ki</small></button>
+            <button class="big-button">し<br><small>shi</small></button>
+            <button class="big-button">ち<br><small>chi</small></button>
+            <button class="big-button">に<br><small>ni</small></button>
+            <button class="big-button">ひ<br><small>hi</small></button>
+            <button class="big-button">み<br><small>mi</small></button>
+            <button class="big-button">り<br><small>ri</small></button>
+            <button class="big-button">ゐ<br><small>wi</small></button>
+            <button class="big-button">ぎ<br><small>gi</small></button>
+            <button class="big-button">じ<br><small>ji</small></button>
+            <button class="big-button">ぢ<br><small>dji</small></button>
+            <button class="big-button">び<br><small>bi</small></button>
+            <button class="big-button">ぴ<br><small>pi</small></button>
+
+            
+            <button class="big-button">う<br><small>u</small></button>
+            <button class="big-button">く<br><small>ku</small></button>
+            <button class="big-button">し<br><small>su</small></button>
+            <button class="big-button">す<br><small>tsu</small></button>
+            <button class="big-button">ぬ<br><small>nu</small></button>
+            <button class="big-button">ふ<br><small>fu</small></button>
+            <button class="big-button">む<br><small>mu</small></button>
+            <button class="big-button">ゆ<br><small>yu</small></button>
+            <button class="big-button">る<br><small>ru</small></button>
+            <button class="big-button">ぐ<br><small>gu</small></button>
+            <button class="big-button">ず<br><small>zu</small></button>
+            <button class="big-button">づ<br><small>dzu</small></button>
+            <button class="big-button">ぶ<br><small>bu</small></button>
+            <button class="big-button">ぷ<br><small>pu</small></button>
+
+             
+            
+             
+            <button class="big-button">え<br><small>e</small></button>
+            <button class="big-button">け<br><small>ke</small></button>
+            <button class="big-button">せ<br><small>se</small></button>
+            <button class="big-button">て<br><small>te</small></button>
+            <button class="big-button">ね<br><small>ne</small></button>
+            <button class="big-button">へ<br><small>he</small></button>
+            <button class="big-button">め<br><small>me</small></button>
+            <button class="big-button">れ<br><small>re</small></button>
+            <button class="big-button">ゑ<br><small>we</small></button>
+            <button class="big-button">げ<br><small>ge</small></button>
+            <button class="big-button">ぜ<br><small>ze</small></button>
+            <button class="big-button">で<br><small>de</small></button>
+            <button class="big-button">ベ<br><small>be</small></button>
+            <button class="big-button">べ<br><small>pe</small></button>
+
+         
+            <button class="big-button">お<br><small>o</small></button>
+            <button class="big-button">こ<br><small>ko</small></button>
+            <button class="big-button">そ<br><small>so</small></button>
+            <button class="big-button">と<br><small>to</small></button>
+            <button class="big-button">の<br><small>no</small></button>
+            <button class="big-button">ほ<br><small>ho</small></button>
+            <button class="big-button">も<br><small>mo</small></button>
+            <button class="big-button">よ<br><small>yo</small></button>
+            <button class="big-button">ろ<br><small>ro</small></button>
+            <button class="big-button">を<br><small>wo</small></button>
+            <button class="big-button">ご<br><small>go</small></button>
+            <button class="big-button">ぞ<br><small>zo</small></button>
+            <button class="big-button">ど<br><small>do</small></button>
+            <button class="big-button">ぼ<br><small>bo</small></button>
+            <button class="big-button">ぽ<br><small>po</small></button>
+            <button class="big-button">ゔ<br><small>v</small></button>
+            <button class="big-button">ん<br><small>n</small></button>
+            
+        </div>
+        
+        <div class="kanji" id="box__kanji">
+            <button  id="" class="big-button">日<br><small>soleil</small></button>
+            <button  id="" class="big-button">雨 <br><small>pluie</small></button>
+            <button  id="" class="big-button">一 <br><small>ICHI/1</small></button>
+            <button  id="" class="big-button">二<br><small>NI/2</small></button>
+            <button  id="" class="big-button">三<br><small>SAN/3 </small></button>
+            <button  id="" class="big-button">四<br><small>YON/4</small></button>
+            <button  id="" class="big-button">五<br><small>GO/5</small></button>
+            <button  id="" class="big-button">六 <br><small>ROKU/6 </small></button>
+            <button  id="" class="big-button">七<br><small> NANA/7 </small></button>
+            <button  id="" class="big-button">八<br><small>HACHI/8</small></button>
+            <button  id="" class="big-button">九<br><small>KYÛ/9 </small></button>
+            <button  id="" class="big-button">十<br><small>JYÛ/10</small></button>
+            <button  id="" class="big-button">店 <br><small>MISE/magasin</small></button>
+            <button  id="" class="big-button">駅<br><small> EKI/gare</small></button>
+            <button  id="" class="big-button">車 <br><small>KURUMA/voiture</small></button>
+            <button  id="" class="big-button">円<br><small>EN/yen</small></button>
+            <button  id="" class="big-button">水<br><small>MIZU/eau</small></button>
+            <button  id="" class="big-button">酒<br><small>SAKE/alcool</small></button>
+            <button  id="" class="big-button">茶<br><small>CHA/thé</small></button>
+            <button  id="" class="big-button">女 <br><small>ONNA/femme</small></button>
+            <button  id="" class="big-button">男<br><small>OTOKO/homme</small></button>
+            <button  id="" class="big-button">人<br><small> HITO/gens</small></button>
+            <button  id="" class="big-button">山<br><small> YAMA/montagne</small></button>
+            <button  id="" class="big-button">川<br><small>KAWA/rivière</small></button>
+            <button  id="" class="big-button">口<br><small>KUCHI/bouche</small></button>
+            <button  id="" class="big-button">木<br><small>KI/arbre</small></button>
+            <button  id="" class="big-button">林<br><small>HAYASHI/bois</small></button>
+            <button  id="" class="big-button">森<br><small>MORI/forêt</small></button>
+            <button  id="" class="big-button">田 <br><small>TA/rizières</small></button>
+            <button  id="" class="big-button">中 <br><small> NAKA/dedans</small></button>
+
+            <button  id="" class="big-button">石<br><small> ISHI/pierre</small></button>
+            <button  id="" class="big-button">上<br><small>UE/dessus</small></button>
+            <button  id="" class="big-button">下<br><small>SHITA/dessous</small></button>
+            <button  id="" class="big-button">くん<br><small>KUN/garçons</small></button>
+            <button  id="" class="big-button">ちゃん <br><small>CHAN/filles</small></button>
+
+            <button  id="" class="big-button">鈴木 道雄<br><small>SUZUKI</small></button>
+            <button  id="" class="big-button">豊田 喜一郎<br><small>TOYOTA</small></button>
+            <button  id="" class="big-button">本田 宗一郎<br><small>HONDA</small></button>
+            <button  id="" class="big-button">樫尾 忠雄<br><small>CASIO</small></button>
+            <button  id="" class="big-button">久保田 権四郎<br><small>KUBOTA</small></button>
+
+            <button  id="" class="big-button">進撃 の 巨人<br><small>SHINGEKI NO KYOJIN</small></button>
+            <button  id="" class="big-button">約束 のネバーランド<br><small>The Promised Neverland</small></button>
+            <button  id="" class="big-button"> 鬼滅 の刃<br><small>KIMETSU NO YAIBA</small></button>
+            <button  id="" class="big-button">鋼 の 錬金術師<br><small>Fullmetal Alchemist</small></button>
+            <button  id="" class="big-button">東京 喰種 <br><small> TOKYO GHOUL</small></button>
+            <button  id="" class="big-button">千 と 千尋 の 神隠し<br><small>Le Voyage de Chihiro </small></button>
+
+        </div>
+    </div>
+   
+</body>
+<script src="js/sound--katakana.js"></script>
+<script src="js/move--title.js"></script>
+<script src="js/smooth.js"></script>
+<script src="js/switch.js" ></script>
+<script src="js/select.js"></script>
+</html>
